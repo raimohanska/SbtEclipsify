@@ -6,7 +6,7 @@ version := "0.10.0-SNAPSHOT"
 
 organization := "de.element34"
 
-scalaVersion := "2.8.1"
+scalaVersion := "2.9.1"
 
 publishTo <<= (version) { version: String =>
     val nexus = "http://nexus.scala-tools.org/content/repositories/"
